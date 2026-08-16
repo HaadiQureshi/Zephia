@@ -1,0 +1,7 @@
+# https://www.robotstxt.org/
+# Replace with your live origin. Sitemap URL must match production domain.
+
+User-agent: *
+Allow: /
+
+Sitemap: https://zephia.com.au/sitemap.xml
