@@ -1,15 +1,15 @@
 const quotes = [
   {
     quote:
-      'Zephia treated our investment as seriously as we do. Communication was clear, design intent never wavered, and the finished product speaks for itself.',
+      'Zephia purchased a development site for us and made the whole process simple. Clear advice the whole way, and a result we were really happy with.',
     name: 'E. Morrison',
     role: 'Private investor, SEQ',
   },
   {
     quote:
-      'They understand Brisbane’s subtleties — climate, aspect, how people actually live. That showed up in every plan review.',
-    name: 'Studio North Architects',
-    role: 'Design partner',
+      'Zephia found and purchased the right development site for us. They know the market well and kept everything easy to understand.',
+    name: 'J. Nguyen',
+    role: 'Brisbane developer',
   },
 ]
 

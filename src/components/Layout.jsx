@@ -13,7 +13,7 @@ export default function Layout({ children }) {
       <SchemaOrg />
       <a
         href="#main-content"
-        className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-[200] focus:rounded focus:bg-white focus:px-4 focus:py-2 focus:text-sm focus:outline focus:outline-2 focus:outline-offset-2 focus:outline-zephia-gold"
+        className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-[200] focus:rounded focus:bg-white focus:px-4 focus:py-2 focus:text-sm focus:outline focus:outline-2 focus:outline-offset-2 focus:outline-zephia-navy"
       >
         Skip to main content
       </a>

@@ -72,12 +72,12 @@ export default function Contact() {
             <address className="mt-6 not-italic text-zephia-stone">
               <p>Brisbane, Queensland, Australia</p>
               <p className="mt-4">
-                <a className="text-zephia-black underline decoration-zephia-gold/50 underline-offset-4 hover:decoration-zephia-gold" href="mailto:admin@zephia.com.au">
+                <a className="text-zephia-black underline decoration-zephia-navy/50 underline-offset-4 hover:decoration-zephia-navy" href="mailto:admin@zephia.com.au">
                   admin@zephia.com.au
                 </a>
               </p>
               <p className="mt-2">
-                <a className="text-zephia-black underline decoration-zephia-gold/50 underline-offset-4 hover:decoration-zephia-gold" href="tel:+61404014550">
+                <a className="text-zephia-black underline decoration-zephia-navy/50 underline-offset-4 hover:decoration-zephia-navy" href="tel:+61404014550">
                   +61 404 014 550
                 </a>
               </p>
@@ -90,7 +90,7 @@ export default function Contact() {
           <div>
             {status === 'success' ? (
               <div
-                className="border border-zephia-gold/40 bg-stone-50 px-8 py-10"
+                className="border border-zephia-navy/40 bg-stone-50 px-8 py-10"
                 role="status"
                 aria-live="polite"
               >
@@ -125,7 +125,7 @@ export default function Contact() {
                     type="text"
                     required
                     autoComplete="name"
-                    className="mt-2 w-full border border-black/15 bg-white px-4 py-3 text-zephia-black outline-none transition focus:border-zephia-gold focus:ring-2 focus:ring-zephia-gold/20"
+                    className="mt-2 w-full border border-black/15 bg-white px-4 py-3 text-zephia-black outline-none transition focus:border-zephia-navy focus:ring-2 focus:ring-zephia-navy/20"
                   />
                 </div>
                 <div>
@@ -138,7 +138,7 @@ export default function Contact() {
                     type="email"
                     required
                     autoComplete="email"
-                    className="mt-2 w-full border border-black/15 bg-white px-4 py-3 text-zephia-black outline-none transition focus:border-zephia-gold focus:ring-2 focus:ring-zephia-gold/20"
+                    className="mt-2 w-full border border-black/15 bg-white px-4 py-3 text-zephia-black outline-none transition focus:border-zephia-navy focus:ring-2 focus:ring-zephia-navy/20"
                   />
                 </div>
                 <div>
@@ -148,7 +148,7 @@ export default function Contact() {
                   <select
                     id="topic"
                     name="topic"
-                    className="mt-2 w-full border border-black/15 bg-white px-4 py-3 text-zephia-black outline-none transition focus:border-zephia-gold focus:ring-2 focus:ring-zephia-gold/20"
+                    className="mt-2 w-full border border-black/15 bg-white px-4 py-3 text-zephia-black outline-none transition focus:border-zephia-navy focus:ring-2 focus:ring-zephia-navy/20"
                     defaultValue=""
                   >
                     <option value="" disabled>
@@ -156,7 +156,6 @@ export default function Contact() {
                     </option>
                     <option value="project">Project enquiry</option>
                     <option value="investment">Investment / JV</option>
-                    <option value="media">Media</option>
                     <option value="other">Other</option>
                   </select>
                 </div>
@@ -169,7 +168,7 @@ export default function Contact() {
                     name="message"
                     rows={5}
                     required
-                    className="mt-2 w-full resize-y border border-black/15 bg-white px-4 py-3 text-zephia-black outline-none transition focus:border-zephia-gold focus:ring-2 focus:ring-zephia-gold/20"
+                    className="mt-2 w-full resize-y border border-black/15 bg-white px-4 py-3 text-zephia-black outline-none transition focus:border-zephia-navy focus:ring-2 focus:ring-zephia-navy/20"
                   />
                 </div>
                 {status === 'error' && (
@@ -191,6 +190,18 @@ export default function Contact() {
               </form>
             )}
           </div>
+        </div>
+
+        <div className="border-t border-black/5">
+          <iframe
+            title="Zephia location — Brisbane CBD, Queensland"
+            src="https://www.google.com/maps?q=Brisbane+CBD,+Queensland,+Australia&z=14&output=embed"
+            className="block h-[360px] w-full sm:h-[420px] lg:h-[480px]"
+            style={{ border: 0 }}
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+            allowFullScreen
+          />
         </div>
       </div>
     </>

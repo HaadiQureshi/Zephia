@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Stray double-extension image exports (not used by the app)
+*.jpg.png

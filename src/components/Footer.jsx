@@ -13,20 +13,15 @@ export default function Footer() {
             className="max-w-[420px] drop-shadow-[0_1px_0_rgba(0,0,0,0.35)]"
           />
           <p className="mt-4 max-w-xs text-sm leading-relaxed text-white/60">
-            Brisbane property development with a focus on design integrity, location, and long-term value.
+            We secure the sites great developments are built on — across South East Queensland.
           </p>
         </div>
         <div>
-          <h2 className="text-xs font-medium uppercase tracking-[0.2em] text-zephia-gold">Navigation</h2>
+          <h2 className="text-xs font-medium uppercase tracking-[0.2em] text-zephia-silver">Navigation</h2>
           <ul className="mt-4 space-y-2 text-sm text-white/75">
             <li>
               <Link className="transition-colors hover:text-white" to="/about">
                 About
-              </Link>
-            </li>
-            <li>
-              <Link className="transition-colors hover:text-white" to="/projects">
-                Projects
               </Link>
             </li>
             <li>
@@ -37,7 +32,7 @@ export default function Footer() {
           </ul>
         </div>
         <div>
-          <h2 className="text-xs font-medium uppercase tracking-[0.2em] text-zephia-gold">Contact</h2>
+          <h2 className="text-xs font-medium uppercase tracking-[0.2em] text-zephia-silver">Contact</h2>
           <address className="mt-4 not-italic text-sm leading-relaxed text-white/75">
             <p>Brisbane, Queensland</p>
             <p className="mt-2">
@@ -53,7 +48,7 @@ export default function Footer() {
           </address>
         </div>
         <div>
-          <h2 className="text-xs font-medium uppercase tracking-[0.2em] text-zephia-gold">Connect</h2>
+          <h2 className="text-xs font-medium uppercase tracking-[0.2em] text-zephia-silver">Connect</h2>
           <ul className="mt-4 space-y-2 text-sm text-white/75">
             <li>
               <a href="#" className="transition-colors hover:text-white">

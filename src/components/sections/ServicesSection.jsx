@@ -1,19 +1,19 @@
 const services = [
   {
     title: 'Site acquisitions',
-    desc: 'Sourcing premium residential sites and quiet opportunities across Brisbane and South East Queensland — with discretion and disciplined underwriting.',
+    desc: 'Sourcing development sites and quiet opportunities across Brisbane and South East Queensland — with discretion and disciplined underwriting.',
     img: 'https://images.unsplash.com/photo-1501183638710-841dd1904471?auto=format&fit=crop&w=1600&q=80',
     alt: 'Cranes above a development site at dusk',
   },
   {
     title: 'Development strategy',
-    desc: 'Positioning, product mix, and capital structure aligned to the site — balancing architecture, risk, and return from day one.',
+    desc: 'We work closely with clients to align positioning, risk, and return from day one.',
     img: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1600&q=80',
     alt: 'Architectural drawings and development planning materials on a desk',
   },
   {
     title: 'Project feasibility',
-    desc: 'Honest feasibility modelling and scenario testing — so each opportunity is assessed with clarity, not optimism.',
+    desc: 'Feasibility modelling and scenario testing — so each opportunity is assessed with clarity, not optimism.',
     img: 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=1600&q=80',
     alt: 'Financial feasibility analysis on paper and calculator',
   },
@@ -25,13 +25,13 @@ const services = [
   },
   {
     title: 'Development advisory',
-    desc: 'Independent counsel across acquisition, design, procurement, and staging — for teams who want premium outcomes with fewer surprises.',
+    desc: 'Straightforward advice from acquisition to completion.',
     img: 'https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1600&q=80',
     alt: 'Team reviewing project documents together',
   },
   {
     title: 'Market opportunity assessment',
-    desc: 'Local market intelligence on amenity, planning overlays, and demand — guiding site selection and timing with confidence.',
+    desc: 'We research the local market so you know where to buy and when.',
     img: 'https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=1600&q=80',
     alt: 'City precinct map and market research materials',
   },
@@ -62,7 +62,7 @@ export default function ServicesSection() {
                   decoding="async"
                 />
               </div>
-              <h3 className="mt-6 text-xs font-medium uppercase tracking-[0.25em] text-zephia-gold">{s.title}</h3>
+              <h3 className="mt-6 text-xs font-medium uppercase tracking-[0.25em] text-zephia-navy">{s.title}</h3>
               <p className="mt-4 text-base leading-relaxed text-zephia-black/80">{s.desc}</p>
             </li>
           ))}

@@ -5,7 +5,6 @@ import Logo from './Logo'
 const nav = [
   { to: '/', label: 'Home', end: true },
   { to: '/about', label: 'About' },
-  { to: '/projects', label: 'Projects' },
   { to: '/contact', label: 'Contact' },
 ]
 

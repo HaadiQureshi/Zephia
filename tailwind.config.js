@@ -7,7 +7,8 @@ export default {
         'zephia-black': '#0a0a0a',
         'zephia-charcoal': '#1a1a1a',
         'zephia-stone': '#8a8a8a',
-        'zephia-gold': '#c9a962',
+        'zephia-navy': '#002040',
+        'zephia-silver': '#b8b8b8',
       },
       fontFamily: {
         display: ['Cormorant Garamond', 'Georgia', 'Times New Roman', 'serif'],

@@ -23,7 +23,7 @@ export default function CTASection() {
         </p>
         <Link
           to="/contact"
-          className="mt-10 inline-flex min-h-[52px] items-center justify-center border border-zephia-gold bg-zephia-gold px-10 text-xs font-medium uppercase tracking-[0.22em] text-zephia-black transition hover:bg-transparent hover:text-zephia-gold"
+          className="mt-10 inline-flex min-h-[52px] items-center justify-center border border-white bg-white px-10 text-xs font-medium uppercase tracking-[0.22em] text-zephia-black transition hover:bg-transparent hover:text-white"
         >
           Get in touch
         </Link>

@@ -9,17 +9,16 @@ export default function AboutSection() {
             A Brisbane developer with a national eye for detail
           </h2>
           <p className="mt-8 text-base leading-relaxed text-zephia-stone sm:text-lg">
-            Zephia partners with architects, planners, and investors to deliver boutique residential projects in
-            Brisbane&apos;s most liveable corridors. Our work prioritises enduring materials, intelligent floor plans,
-            and neighbourhoods that mature beautifully over time.
+            Zephia Property Group is a specialist buyers agency operating across South East Queensland, with a focus
+            on development acquisitions and commercial sourcing.
           </p>
           <p className="mt-6 text-base leading-relaxed text-zephia-stone sm:text-lg">
-            From site acquisition through to delivery, we maintain a single thread of quality — so every Zephia
-            address feels unmistakably considered.
+            We combine on-the-ground market intelligence with strong agent relationships and a structured acquisition
+            process to deliver outstanding outcomes for developers and investors.
           </p>
           <Link
             to="/about"
-            className="mt-10 inline-flex items-center text-xs font-medium uppercase tracking-[0.2em] text-zephia-black underline decoration-zephia-gold decoration-1 underline-offset-8 transition hover:text-zephia-stone"
+            className="mt-10 inline-flex items-center text-xs font-medium uppercase tracking-[0.2em] text-zephia-black underline decoration-zephia-navy decoration-1 underline-offset-8 transition hover:text-zephia-stone"
           >
             Our story
           </Link>
