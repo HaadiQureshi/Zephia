@@ -6,11 +6,11 @@ export default function AboutSection() {
       <div className="mx-auto grid max-w-7xl gap-16 px-6 lg:grid-cols-2 lg:items-center lg:gap-24 lg:px-8">
         <div>
           <h2 id="about-heading" className="font-display text-3xl tracking-tight text-zephia-black sm:text-4xl md:text-5xl">
-            A Brisbane developer with a national eye for detail
+            A Brisbane Acquisitions Firm with a national eye for detail
           </h2>
           <p className="mt-8 text-base leading-relaxed text-zephia-stone sm:text-lg">
-            Zephia Property Group is a specialist buyers agency operating across South East Queensland, with a focus
-            on development acquisitions and commercial sourcing.
+            Zephia Property Group is a specialist Property Acquisitions Advisory operating across South East
+            Queensland, with a focus on development and commercial sourcing.
           </p>
           <p className="mt-6 text-base leading-relaxed text-zephia-stone sm:text-lg">
             We combine on-the-ground market intelligence with strong agent relationships and a structured acquisition

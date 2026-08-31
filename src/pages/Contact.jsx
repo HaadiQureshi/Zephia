@@ -52,7 +52,7 @@ export default function Contact() {
     <>
       <SEO
         title="Contact"
-        description="Contact Zephia — Brisbane property developers. Enquire about projects, partnerships, or new opportunities across South East Queensland."
+        description="Contact Zephia Property Group — a Brisbane property acquisitions advisory. Enquire about development and commercial site opportunities across South East Queensland."
         path="/contact"
       />
       <div className="bg-white">
@@ -72,8 +72,8 @@ export default function Contact() {
             <address className="mt-6 not-italic text-zephia-stone">
               <p>Brisbane, Queensland, Australia</p>
               <p className="mt-4">
-                <a className="text-zephia-black underline decoration-zephia-navy/50 underline-offset-4 hover:decoration-zephia-navy" href="mailto:admin@zephia.com.au">
-                  admin@zephia.com.au
+                <a className="text-zephia-black underline decoration-zephia-navy/50 underline-offset-4 hover:decoration-zephia-navy" href="mailto:info@zephia.com.au">
+                  info@zephia.com.au
                 </a>
               </p>
               <p className="mt-2">

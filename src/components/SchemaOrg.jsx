@@ -4,10 +4,10 @@ import { SITE_URL, SITE_NAME } from '../config'
 export default function SchemaOrg() {
   const data = {
     '@context': 'https://schema.org',
-    '@type': 'RealEstateDeveloper',
+    '@type': 'RealEstateAgent',
     name: SITE_NAME,
     description:
-      'Premium property development in Brisbane — contemporary residences and curated developments across South East Queensland.',
+      'Zephia Property Group — a specialist property acquisitions advisory across Brisbane and South East Queensland, focused on development and commercial sourcing.',
     url: SITE_URL,
     address: {
       '@type': 'PostalAddress',

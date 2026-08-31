@@ -20,7 +20,7 @@ export default function Hero() {
       />
       <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/35 to-black/20" aria-hidden="true" />
       <div className="relative z-10 mx-auto w-full max-w-7xl px-6 pb-20 pt-32 lg:px-8 lg:pb-28">
-        <p className="text-xs font-medium uppercase tracking-[0.35em] text-zephia-silver">South East Queensland · Property development</p>
+        <p className="text-xs font-medium uppercase tracking-[0.35em] text-zephia-silver">South East Queensland · Property acquisitions</p>
         <h1 id="hero-heading" className="mt-6 max-w-3xl font-display text-4xl font-medium leading-[1.1] tracking-tight text-white sm:text-5xl md:text-6xl lg:text-7xl">
           Built for life. Designed for legacy.
         </h1>

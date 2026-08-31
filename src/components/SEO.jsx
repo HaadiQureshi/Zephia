@@ -16,7 +16,7 @@ export default function SEO({
   image = defaultOgImage,
   noIndex = false,
 }) {
-  const pageTitle = title ? `${title} | ${SITE_NAME}` : `${SITE_NAME} | Property Developer Brisbane`
+  const pageTitle = title ? `${title} | ${SITE_NAME}` : `${SITE_NAME} | Property Acquisitions Brisbane`
   const url = `${SITE_URL}${path.startsWith('/') ? path : `/${path}`}`
 
   return (

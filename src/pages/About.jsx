@@ -5,7 +5,7 @@ export default function About() {
     <>
       <SEO
         title="About"
-        description="Zephia is a Brisbane-based property developer and acquisitions platform — sourcing premium sites and shaping disciplined residential projects across South East Queensland."
+        description="Zephia Property Group is a Brisbane-based property acquisitions advisory — sourcing development and commercial opportunities across South East Queensland."
         path="/about"
       />
       <article className="bg-white">
@@ -138,6 +138,9 @@ export default function About() {
                 >
                   fiston@zephia.com.au
                 </a>
+                <p className="mt-3 text-sm text-zephia-stone">
+                  <a href="tel:+61404014550" className="transition hover:text-zephia-black">0404 014 550</a>
+                </p>
               </article>
 
               <article>
@@ -183,6 +186,9 @@ export default function About() {
                 >
                   cormac@zephia.com.au
                 </a>
+                <p className="mt-3 text-sm text-zephia-stone">
+                  <a href="tel:+61457169904" className="transition hover:text-zephia-black">0457 169 904</a>
+                </p>
               </article>
             </div>
           </div>

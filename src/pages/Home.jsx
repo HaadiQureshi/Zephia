@@ -9,8 +9,8 @@ export default function Home() {
   return (
     <>
       <SEO
-        title="Property Developer Brisbane"
-        description="Zephia is a Brisbane property developer delivering premium residential projects across SEQ — architecture-led design, disciplined delivery, and investment-grade outcomes."
+        title="Property Acquisitions Brisbane"
+        description="Zephia Property Group is a specialist property acquisitions advisory across Brisbane and South East Queensland, focused on development and commercial sourcing for developers and investors."
         path="/"
       />
       <Hero />

@@ -36,8 +36,8 @@ export default function Footer() {
           <address className="mt-4 not-italic text-sm leading-relaxed text-white/75">
             <p>Brisbane, Queensland</p>
             <p className="mt-2">
-              <a className="hover:text-white" href="mailto:admin@zephia.com.au">
-                admin@zephia.com.au
+              <a className="hover:text-white" href="mailto:info@zephia.com.au">
+                info@zephia.com.au
               </a>
             </p>
             <p className="mt-1">
@@ -65,8 +65,13 @@ export default function Footer() {
       </div>
       <div className="border-t border-white/10">
         <div className="mx-auto flex max-w-7xl flex-col items-start justify-between gap-4 px-6 py-8 text-xs text-white/45 sm:flex-row sm:items-center lg:px-8">
-          <p>© {new Date().getFullYear()} {SITE_NAME}. All rights reserved.</p>
-          <p className="text-white/40">Property developer · Brisbane &amp; SEQ</p>
+          <p className="flex flex-wrap items-center gap-x-4 gap-y-1">
+            <span>© {new Date().getFullYear()} {SITE_NAME}. All rights reserved.</span>
+            <Link to="/privacy" className="text-white/60 transition-colors hover:text-white">
+              Privacy Policy
+            </Link>
+          </p>
+          <p className="text-white/40">Acquisitions firm · Brisbane &amp; SEQ</p>
         </div>
       </div>
     </footer>
