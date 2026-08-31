@@ -2,22 +2,22 @@
 <!-- Update loc URLs to your production domain (see src/config.js SITE_URL). -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://zephia.com.au/</loc>
+    <loc>https://www.zephia.com.au/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://zephia.com.au/about</loc>
+    <loc>https://www.zephia.com.au/about</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zephia.com.au/contact</loc>
+    <loc>https://www.zephia.com.au/contact</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://zephia.com.au/privacy</loc>
+    <loc>https://www.zephia.com.au/privacy</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
